@@ -1,0 +1,74 @@
+$primary_yellow:#f7c000;
+$theme-color:#ee6e73;
+$primary_blue:#0058bc;
+
+
+.userCoverPic , .userProfilePic{
+  width:200px;
+  height:200px;
+  border:1px solid #000
+}
+
+
+.userCoverPic img,.userProfilePic img{
+  width:200px;
+  height:200px;
+}
+
+
+
+
+.permissionsValue{
+  text-transform:capitalize;
+   .input-field{
+     position: absolute;
+    right: 0px;
+    top: -8px;
+   }
+}
+.permissionsValue.selected{
+  .card-content{
+    color:#fff;
+    background:$primary_yellow;
+  }
+   [type="radio"]:checked + label::after{
+   background:#fff;
+   }
+}
+
+.leftArrow{
+  margin-top:15px;
+}
+
+.allUserSpinnerContainer{
+          height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

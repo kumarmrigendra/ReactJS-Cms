@@ -1,0 +1,9 @@
+1. Get the code from respective branch
+2. Goto that folder in terminal
+3. Run "npm install" which will install dependencies from package.json file. It is required only once when you get code from git.
+
+4. Make changes to the files that you want to change and save them.
+5. Once you are done with the changes run "gulp --cssVer 1.2 --jsVer 1.2" in terminal. Here 1.2 is the version number of the files, you can give any version number here.
+6. In staticProd/gcms/js folder you should see output gcms.js file with version number in it's name.
+7. Upload the file to dev server and test your changes.
+7. If everything is good, push the file to prod server after renaming it

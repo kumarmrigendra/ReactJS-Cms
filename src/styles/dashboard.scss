@@ -1,0 +1,292 @@
+.cm-card__line-text{
+    font-size: 13px; font-weight: 400;
+}
+.cm-card__line-sub{
+    font-size: 11px; font-weight: 500;
+}
+.cm-card__line-sub span{
+    font-weight: 400; 
+}
+.content-border-top{
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.content-holder p{
+    margin:0 0 2px;
+}
+
+.content-padding-8{
+    padding: 8px;
+}
+.content-padding-top_bottom-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.youtube-card .mdl-card__media {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mdl-card.youtube-card {
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+//, .post-card > button
+.youtube-card > button, .post-card > div > button {
+  position: absolute;
+  top: 0;
+  right: 28px;
+  -webkit-transform: translate(0px, -28px);
+          transform: translate(0px, -28px);
+}
+.youtube-card .mdl-card__media {
+  font-size: 13px;
+  font-weight: 500;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.youtube-card .mdl-card__media img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+.youtube-card .mdl-card__supporting-text {
+  background-color: #F5F5F5;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.header-label {
+    line-height: 32px;
+}
+
+.custom-card-overflow-none{
+    overflow: initial;
+}
+
+.button-position-absolute{
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 28px;
+    -webkit-transform: translate(56px, -28px);
+            transform: translate(56px, -28px);
+}
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+
+.border-bottom{
+  border-bottom: 1px solid #d0d0d0;  
+}
+
+table.cm-table td{
+  padding:10px;
+}
+
+.btn-small {
+ 
+}
+
+.cm-select{
+  display:block;
+  width:10em;
+  height: 2.4em;
+}
+.cm-card{
+  min-height: 310px; 
+  width: 100%;
+  height: inherit;
+  overflow: scroll;   
+}
+
+.projections{
+  h6{
+    font-size: 1.3em;
+  }  
+  p{
+    margin: 0;
+    span{
+      font-size: .55em; 
+    }
+  }
+}
+
+.logoContainer{
+  margin: 10px auto 0;
+  .sw, .vb, .gp{
+    height: 76px; width: 76px;
+    z-index: 1 !important;
+  }
+  .vb{
+    border-radius: 50% !important;
+  }
+
+}
+
+.best-post{ 
+  background-color: #f2f2f2;
+  border-top: 1px solid #4385f5; 
+  }
+
+.side-feed{
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  height:100%;
+}
+
+.side-click-icon{
+  background-color: #4385f5;
+  color: #fff;
+  padding-top: 5px;
+  cursor: pointer;
+  width:25px; height:35px;
+  z-index:3; position:absolute;
+}
+.side-feed-container{
+  width: 320px;
+  position: relative;
+  background-color: #fff;
+  height: 100%;
+  overflow: scroll;
+  padding-bottom: 20px;
+}
+.youtube-container{
+  width: 94%;
+  padding: 5px 0;
+  margin: 5px auto;
+  background-color: #f4f4f4; overflow: hidden;
+  position: relative;
+}
+.twitter-container, .quotes-container{
+  overflow: scroll; height: auto; margin-bottom: 15px;
+}
+.twitter-user-image{
+  width: 40px; border-radius: 4px; margin-right: 5px; 
+}
+.tweet-header{
+  padding: 5px 5px 0 5px;
+  height: 100%;
+  overflow: hidden;
+  a{
+    color: #333;
+    text-transform: capitalize;
+  }
+  a.screen-name{
+    color: grey;
+    font-size: 11px; text-transform: inherit;
+  }
+}
+.tweet-text{
+    font-size: 13px; color: #333 !important;
+  }
+
+.quotes-image{
+ width: 100%; 
+}
+
+.quotes-like{
+  color: #4385f5;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.quotes-number{
+  font-size: 11px;
+  color: #b7b7b7;
+}
+.color-black{
+  color: black !important;
+}
+.youtube-row-icon{
+  padding: 5px;
+  height: 35px;
+}
+.youtube-row{
+  background-color: #f4f4f4;
+  font-size: 11px;
+  color: #333;
+  cursor: pointer; 
+  width:100%;
+  overflow: hidden;
+}
+.youtube-row-text{
+  padding-top: 10px;
+  width:80%;
+}
+
+
+.spinner-container{
+  z-index: 1400;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.card-reveal-on{
+  display: block;
+  transform: translateY(-100%);
+}
+
+/* react grid layout override css */ 
+.react-grid-item > .react-resizable-handle {
+ z-index: 2;
+ }
+
+ .react-grid-item{
+ height:100%;
+ }

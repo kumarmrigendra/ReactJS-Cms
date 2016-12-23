@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles/design-homepage.css"],"names":[],"mappings":"AAAA,YACC,eAAgB,CAChB,AAED,gBACC,UAAU,AACV,UAAU,CACV","file":"design-homepage.css","sourcesContent":[".fieldSpace{\n\tmargin-top:25px;\n}\n\n.trendingFields{\n\twidth:30%;\n\tfloat:left\n}\n\n"]}

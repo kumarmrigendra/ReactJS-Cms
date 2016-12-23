@@ -1,0 +1,116 @@
+.circleContainer{
+    width: 75px;
+    height: 75px;
+    margin: 10px auto 0 auto;
+}
+.prec{
+    top: 18px;
+    position: relative;
+    font-size: 20px;
+}
+
+.circle{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    background-color: #E6F4F7;
+}
+
+.active-border{
+    position: relative;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+
+    background-color:#39B4CC;
+    /*background-image:
+        linear-gradient(162deg, transparent 50%, #A2ECFB 50%),
+        linear-gradient(90deg, #A2ECFB 50%, transparent 50%);*/
+    
+}
+ 
+
+/*  gauge meter */
+
+
+.gauge-content {
+  display: block;
+}
+
+.mask {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 13.33333rem;
+  height: 6.66667rem;
+  margin: auto;
+
+}
+
+.semi-circle {
+  position: relative;
+  display: block;
+  width: 13.33333rem;
+  height: 6.66667rem;
+  background: linear-gradient(to right, #c0392b 0%, #f1c40f 50%, #1abc9c 100%);
+  border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+.semi-circle::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 2;
+  display: block;
+  width: 9.33333rem;
+  height: 4.66667rem;
+  margin-left: -4.66667rem;
+  background: #fff;
+  border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+
+.semi-circle--mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 13.33333rem;
+  height: 13.33333rem;
+  background: transparent;
+  transform: rotate(0deg) translate3d(0, 0, 0);
+  transform-origin: center center;
+  backface-visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+.semi-circle--mask::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0%;
+  z-index: 2;
+  display: block;
+  width: 13.46667rem;
+  height: 6.8rem;
+  margin: -1px 0 0 -1px;
+  background: #f2f2f2;
+  border-radius: 50% 50% 50% 50%/100% 100% 0% 0%;
+}
+
+.gauge--1 .semi-circle {
+  background: #1abc9c;
+}
+.semi-circle-text{
+    color: #000 !important;
+}
+
+.semi-circle-percentage{
+    color: #000 !important;
+    position: relative;
+    top: -15px;
+    margin:0;
+    z-index: 2;
+}

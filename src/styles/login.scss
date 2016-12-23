@@ -1,0 +1,79 @@
+$primary-yellow:#f7c000;
+$primary-blue:#0058bc;
+#login-form{
+	background-color:$primary-yellow;
+	padding:0px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 400px;
+
+	.header{
+		background:none;
+		color:#fff;
+		padding:15px;
+		font-size: 1.5em;
+		font-weight: 300;
+		margin-bottom: 0px;
+		border-bottom:2px solid #fff;
+	}
+	#username{
+		margin-top:15px;
+	}
+	#password{
+		margin-bottom:15px;
+	}
+	.card-content{
+		transition:all 0.3s;
+	}
+	.card-content.loading{
+		opacity:0;
+	}
+	.login-input{
+		label{
+			color:#fff;
+			opacity:0.7;
+		}
+		input{
+			padding: 5px;
+			line-height: 12px;
+			height: 2rem;
+			background:rgba(255,255,255,0);
+			transition:all 0.3s;
+		}
+		input:focus{
+				background:rgba(255,255,255,1);
+
+		}		
+
+	}
+	 button{
+		background:$primary-blue;
+	}
+	.account-list{
+		li{
+		position:relative;
+		}
+		img{
+			display: inline-block;
+			width: 44px;
+			vertical-align: middle;
+		}
+		.title{
+			padding-left:10px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.secondary-content{
+				position: absolute;
+			right: 10px;
+			top: 20px;
+		}
+
+	}
+	.card-action{
+		border-top: 2px solid #fff;
+	}
+}

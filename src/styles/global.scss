@@ -1,0 +1,154 @@
+$primary_yellow:#f7c000;
+$theme-color:#ee6e73;
+$primary_blue:#0058bc;
+.full-width{
+  width:100%;
+}
+.block-element{
+  width:100%;
+}
+
+.primary_yellow_background{
+  background:$primary_yellow;
+}
+
+.text-center{
+  text-align:center;
+}
+.no-bottom-margin{
+  margin-bottom:0px !important;
+}
+ .overlay{
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index:0;
+    opacity:0.5;
+    -webkit-transition: opacity 1s; 
+    -moz-transition: opacity 1s; 
+    transition: opacity 1s; 
+
+  }
+  .fadeout {
+    opacity:0;
+}
+.fadein {
+    opacity:1;
+}
+#search-wrapper{
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:998;
+  width:100%;
+  height:100%;
+
+  nav{
+  position:relative;
+  }
+  #search-input:not(:focus) ~ #close{
+    color:#fff;
+  }
+  .filters{
+      position: relative;
+    background: #fff;
+    padding: 20px;
+    .filter{
+      display:inline-block;
+      margin:0px 10px;
+    }
+  }
+  #search-results-wrapper{
+    height: 600px;
+    overflow: scroll;
+    .search-results{
+      padding: 10px;
+       ul{
+          border:none;
+        li{
+          .article-overlay{
+            background: rgba(255,255,255,0.8);
+            z-index: 222;  
+            opacity:1;
+          }
+        }
+      }
+      .header{
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px;
+        font-size: 1.8em;
+      }
+    }
+   
+  }
+
+}
+#sidebar-wrapper{
+  position:fixed;
+  left:0px;
+  top:0px;
+  z-index:998;
+  width:100%;
+  height:100%;
+
+   #sidebar{
+    position:relative;
+    left:0px;
+    width:250px;
+    z-index:11;
+    background: #fff;
+    margin: 0px;
+    float:right;
+    height:100%;
+  }
+  ul{
+    right:0px;
+    left:auto;
+     transform: translateX(0px);
+  }
+}
+
+.primary-background{
+  background:
+}
+.no-background{
+  background:none !important;
+}
+.height-100pt-over-hide{
+  height: 100%;
+  overflow: hidden;
+}
+.height-100pt{
+  height: 100%; 
+}
+
+.margin-bottom-0{
+  margin-bottom: 0;
+}
+.padding-10{
+  padding: 10px !important;
+}
+.padding-5{
+  padding: 5px !important;
+}
+.block-element{
+  display:block;
+}
+
+.Select-input > input{
+  height:auto !important;
+}
+
+
+/* dashboard card customize css */
+/* start */
+.db-card{
+    -webkit-transition: box-shadow .25s; 
+    transition: box-shadow .25s; 
+    border-radius: 2px;
+    background-color: #fff;
+}
+/* end */

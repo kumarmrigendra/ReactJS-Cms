@@ -1,0 +1,2 @@
+.userCoverPic,.userProfilePic{width:200px;height:200px;border:1px solid #000}.userCoverPic img,.userProfilePic img{width:200px;height:200px}.permissionsValue{text-transform:capitalize}.permissionsValue .input-field{position:absolute;right:0;top:-8px}.permissionsValue.selected .card-content{color:#fff;background:#f7c000}.permissionsValue.selected [type=radio]:checked+label:after{background:#fff}.leftArrow{margin-top:15px}.allUserSpinnerContainer{height:100%;width:100%;position:absolute}
+/*# sourceMappingURL=userManagement.css.map */
