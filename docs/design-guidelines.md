@@ -1,5 +1,6 @@
 
-* Declarations with var: Always 
+* Declarations with var, let, const: Always
+
 * Use Array and Object literals instead of Array and Object constructors.
 
 * **Naming Conventions**
